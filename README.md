@@ -3,7 +3,7 @@
 Walk, drive and brawl around the real Nicholas County, West Virginia. Start at home on Riverside Drive in Richwood;
 the whole county is out there.
 
-**Current build: 2026.11.10.1102** — Builds now download from GitHub; the launchers update themselves and the game from there. Install straight from the T7 drive (Windows and Steam Deck) with no download; later updates come automatically.
+**Current build: 2026.11.10.1319** — Runs about 10x faster: 110–170 fps at full 5120×1440 on Carter's PC (was 12 fps). Sharp image: the PC now renders at full resolution (no more upscaled blur). Real forests: about 11.5 million trees across the county, four times denser than before, with proper shadows nearby. You bump into tree trunks at their real size.
 
 These are early playtest builds. The launcher installs the game, adds it to Steam, and pulls the newest build every
 time you start it, so you only install once.
