@@ -3,16 +3,19 @@
 Walk, drive and brawl around the real Nicholas County, West Virginia. Start at home in Richwood;
 the whole county is out there.
 
-**Current build: 2026.11.11.0532** — Neighborhoods look lived in: yard trees, shrubs and rhododendrons, mailboxes at the road, propane tanks, woodpiles and picket fences around the houses. Parking lots are striped, and the lots and streets in Summersville, Richwood and Craigsville are full of parked cars (busier toward the middle of town). Towns follow the clock: more people and cars at the morning and after-work rushes and lunchtime, nearly empty streets at 3 AM. The county sounds alive: birds by time of day (cardinals, chickadees, wood thrushes at dusk, a hawk overhead), crickets and katydids at night, spring peepers by ponds, creeks and rivers you can hear, wind up on the ridges, dogs barking in town, all quieter indoors and in a car. Fishing: a real fight on the line. Hold to reel, let up when the line goes red or the fish runs, keep it from going slack. 17 kinds of local fish with real sizes, a species log, and a catch card for every fish (first catch, new species, personal bests). Hunting: bucks carry antlers (4 to 10 points), hit deer leave a blood trail to follow, deer blow and bears huff when they spot you, and a trophy card for every tag (best rack, biggest yet). Your records show on the map screen. Summersville Lake is busy: bass boats and jet skis with people aboard run the open water, idle through the marina's no-wake zone, stop to fish, and steer around you. The Summersville Lake Lighthouse stands on the ridge over the lake (104 ft, white with a black lantern and double gallery), and after dark its beacon sweeps the lake. Summersville Lake's sandstone cliffs: the steep shores of the lower lake rise out of the water in stepped ledges of tan and grey rock, with fallen boulders at the waterline and scattered along the rest of the shore. You can climb out onto them and run a boat into them. Lakes, ponds and rivers have moving water: wind ripples, the sun glinting off it, and the sky and shoreline reflected at a low angle. Summersville Lake's shore is wooded down to the water instead of a bare tan strip, with rhododendron and laurel thickets under the trees and along the cliff tops, and stones and cobbles along the waterline; no more trees growing out of the cliff faces. The lake cliffs break into jutting and overhanging blocks with a water-darkened band at the waterline, and the rock reads as bedded sandstone instead of brickwork. Sun glint on the water no longer burns out to a white sheet when you look down-sun from a ridge or the helicopter. Traffic in town drives past parked cars instead of stopping behind them, and Summersville's downtown streets have curb parking again. Cars no longer clip the bumper of the first or last car in a parked row. After fast travel, the town you land in fills with traffic in a second or two instead of trickling in one car at a time. Store and church parking lots are paved: most mapped lots had their stripes painted on bare ground (the lot surface was never laid), and they were missing from the map. They're dark asphalt now, and town yards have more and bigger shade trees.
+**Current build: 2026.11.11.1341** — Roads drive smooth: no more invisible bumps that stopped the car dead. Road surfaces follow one smooth height line, the ground never pokes up through the pavement, and houses that stood out in the street (the house outlines and the road lines in the map data didn't agree) have been moved back to the roadside. Porches and front steps no longer reach into the street either: a house close to the road gets a shallower porch, steps that come down along the wall, or its door round the side. Side streets meet the road they leave level, instead of ending in a ledge over its lane on hillsides: across the whole intersection, on hills too, and at offset crossings where a street's two halves meet the cross street a few meters apart. Streets that stopped just short of the road they meet now reach it. Guardrails along drop-offs, bridge approaches and hillside curves, and you can hit them. Carter's pick of a Richwood house is rebuilt from its photos: red, two stories, full front porch, the driveway climbing up the side to a level back yard. The house crowding it on the corner is gone. Richwood City Pool: jump in and swim. Steps into the shallow end, a deep end with a diving board, lifeguard chair, bath house and a fenced deck. Backyard pools around the county are swimmable too (no fishing in them). Richwood's skate park beside the pool: two quarter pipes, a funbox, a grind rail and a manual pad. Ball fields: Richwood's diamonds and the rest of the county's have skinned infields, bases, a mound, dugouts, backstops, outfield fences, bleachers and lights. The high school football field has its lines, goalposts and scoreboard, and the basketball and tennis courts, soccer fields and playgrounds are built where they really are. They're all on the map. The launcher says what it's doing every time you press Play, on the Steam Deck (Game Mode too) and on Windows: "Checking for updates", then "Up to date" with the build number, or the download with its progress and "Installed". With no internet it says so and plays the build you have. The build before each update is kept, and the launcher can go back to it if a new one misbehaves. If GitHub doesn't answer, updates come from carterware.net instead.
 
 These are early playtest builds. The launcher installs the game, adds it to Steam, and pulls the newest build every
-time you start it, so you only install once.
+time you start it, so you only install once. Each start shows a small status window first: *Checking for updates…*,
+then *Up to date: 2026.11.11.0532* (gone in a second or two), or the download with its progress and *Installed …*. With
+no internet it says so and plays the build you have. The build before each update is kept, so if a new one misbehaves
+the launcher menu can go back to it.
 
 ## Windows (desktop, laptop, ROG Ally)
 
 1. Download **[Install-Nicholas-County.cmd](https://github.com/carterisanartist/nicholas-county/releases/latest/download/Install-Nicholas-County.cmd)** and double-click it.
    (If Windows SmartScreen warns about it: *More info → Run anyway*.)
-2. The launcher opens and downloads the game (about 1.3 GB), then puts **Nicholas County** on your Desktop, in the Start
+2. The launcher opens and downloads the game (about 1.2 GB), then puts **Nicholas County** on your Desktop, in the Start
    menu, and in your Steam library.
 
 Or from PowerShell:
@@ -30,7 +33,9 @@ iex (New-Object Net.WebClient).DownloadString('https://github.com/carterisanarti
    curl -fsSL https://github.com/carterisanartist/nicholas-county/releases/latest/download/install.sh | bash
    ```
 
-3. Switch back to Game Mode. **Nicholas County** is in your library under *Non-Steam*. Starting it updates it first.
+3. Switch back to Game Mode. **Nicholas County** is in your library under *Non-Steam*. Starting it updates it first
+   (the status window shows over Game Mode). **Nicholas County Launcher** on the desktop has *Check for updates*, the
+   installed and newest versions, and *Go back to the previous build*.
 
 ## Playing together
 
@@ -47,4 +52,6 @@ last. **F** / **Y** gets in and out of cars, **M** / **View** opens the travel m
 ## Manual downloads
 
 Every build is on the [Releases](https://github.com/carterisanartist/nicholas-county/releases) page: the Windows zip and the Linux
-tar.gz unpack to a `NicholasCounty` folder you can run directly (no auto-updates that way).
+tar.gz unpack to a `NicholasCounty` folder you can run directly (no auto-updates that way). `SHA256SUMS.txt` next to
+them checks a download: `sha256sum -c --ignore-missing SHA256SUMS.txt` on Linux, or compare with
+`Get-FileHash NicholasCounty-Windows-x64.zip` in PowerShell.
