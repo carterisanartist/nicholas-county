@@ -3,7 +3,7 @@
 Walk, drive and brawl around the real Nicholas County, West Virginia. Start at home in Richwood;
 the whole county is out there.
 
-**Current build: 2026.11.10.2039** — Privacy: your house is labeled just "Home" on the map and in the world, and the families who own the private fishing ponds are all made-up names now.
+**Current build: 2026.11.10.2238** — Home is now in downtown Richwood, right under the stoplight on Main Street, next door to AC's Lounge. If you played before, you and your cars start fresh at the new home (your character is kept).
 
 These are early playtest builds. The launcher installs the game, adds it to Steam, and pulls the newest build every
 time you start it, so you only install once.
