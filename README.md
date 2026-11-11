@@ -12,7 +12,7 @@ time you start it, so you only install once.
 
 1. Download **[Install-Nicholas-County.cmd](https://github.com/carterisanartist/nicholas-county/releases/latest/download/Install-Nicholas-County.cmd)** and double-click it.
    (If Windows SmartScreen warns about it: *More info → Run anyway*.)
-2. The launcher opens and downloads the game (~700 MB), then puts **Nicholas County** on your Desktop, in the Start
+2. The launcher opens and downloads the game (about 1.3 GB), then puts **Nicholas County** on your Desktop, in the Start
    menu, and in your Steam library.
 
 Or from PowerShell:
